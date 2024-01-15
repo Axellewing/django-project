@@ -11,5 +11,4 @@ def index(request):
     else:
         return HttpResponse("request.method")    
 
-def about_me(request):
-    return HttpResponse("This would be the about page")    
+        
